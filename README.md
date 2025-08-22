@@ -21,10 +21,43 @@ UCI Machine Learning Repository, resolva os exercícios abaixo. O dataset conté
 consumo elétrico em uma residência entre 2006 e 2010, com registros a cada minuto.
 
 ###### 1. Etapa
-- [ ] Carregue o dataset e exiba as 10 primeiras linhas.
+- [X] Carregue o dataset e exiba as 10 primeiras linhas.
 
 ###### 2. Etapa
 - [ ] Explique a diferença entre as variáveis Global_active_power e Global_reactive_power.
+
+Resposta:
+##### Diferença entre Global_active_power e Global_reactive_power
+
+**Global_active_power**
+- Potência ativa consumida pela residência, minuto a minuto (em kW).
+- É a energia efetivamente transformada em trabalho útil, como calor, luz e movimento.
+- Exemplo 1: uma lâmpada incandescente converte energia elétrica em luz e calor → só potência ativa.
+- Exemplo 2: um forno elétrico aquece resistências → só potência ativa.
+- Exemplo 3: quando o ar-condicionado está ligado, parte da energia ativa movimenta o compressor, resfria o ar e gera trabalho real.
+- É o que aparece na conta de luz, porque é a energia realmente consumida.
+
+**Global_reactive_power**
+- Potência reativa consumida pela residência, minuto a minuto (em kW).
+- É a energia que circula entre a rede e os equipamentos sem ser convertida em trabalho útil.
+- Exemplo 1: motores de geladeiras, ventiladores e ar-condicionados precisam de campos magnéticos para funcionar. Essa energia é "emprestada" da rede e depois devolvida.
+- Exemplo 2: lâmpadas fluorescentes e LED com reatores/circuitos indutivos também consomem potência reativa para manter seus componentes.
+- Exemplo 3: um transformador ligado à rede mesmo sem carga real consome potência reativa para manter o campo magnético, mas não consome ativa significativa.
+- Essa energia não aparece diretamente na conta de energia residencial, mas afeta a eficiência do sistema elétrico. Em grandes consumidores (indústrias, shoppings, fábricas), o excesso gera multas, pois obriga a distribuidora a fornecer mais corrente.
+
+---
+
+📌 **Resumo com analogia:**
+- Potência ativa (Global_active_power): aquilo que faz o trabalho de verdade → beber a água do copo.
+- Potência reativa (Global_reactive_power): aquilo que vai e volta sem ser usado → movimentar a água no canudo para manter o fluxo, sem beber de fato.
+
+---
+
+⚡ **Exemplos comparativos rápidos:**
+- **Somente ativa:** aquecedor elétrico, ferro de passar, chuveiro elétrico.  
+- **Ativa + reativa:** ar-condicionado, geladeira, máquina de lavar, ventilador.  
+- **Predominantemente reativa:** transformador ligado sem carga, motores parados energizados, reatores de lâmpadas fluorescentes.  
+
 3. Verifique se existem valores ausentes no dataset. Quantifique-os.
 4. Converta a coluna Date para o tipo datetime e crie uma nova coluna com o dia da semana
 correspondente.
