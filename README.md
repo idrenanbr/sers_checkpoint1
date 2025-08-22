@@ -22,7 +22,9 @@ consumo elétrico em uma residência entre 2006 e 2010, com registros a cada min
 
 ###### 1. Etapa
 - [ ] Carregue o dataset e exiba as 10 primeiras linhas.
-2. Explique a diferença entre as variáveis Global_active_power e Global_reactive_power.
+
+###### 2. Etapa
+- [ ] Explique a diferença entre as variáveis Global_active_power e Global_reactive_power.
 3. Verifique se existem valores ausentes no dataset. Quantifique-os.
 4. Converta a coluna Date para o tipo datetime e crie uma nova coluna com o dia da semana
 correspondente.
