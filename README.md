@@ -20,7 +20,7 @@
 UCI Machine Learning Repository, resolva os exercícios abaixo. O dataset contém medições de
 consumo elétrico em uma residência entre 2006 e 2010, com registros a cada minuto.
 
-#### 1.
+### 1.
 - [ ] Carregue o dataset e exiba as 10 primeiras linhas.
 2. Explique a diferença entre as variáveis Global_active_power e Global_reactive_power.
 3. Verifique se existem valores ausentes no dataset. Quantifique-os.
