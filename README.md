@@ -6,7 +6,7 @@ SERS - André Tritiack
 Pontos
 10 pontos possíveis
 
-INSTRUÇÕES DA ENTREGA:
+## NSTRUÇÕES DA ENTREGA:
 A atividade pode ser desenvolvida em grupo.
 Apenas um integrante submete o arquivo.
 Enviar apenas o link do repositório.
