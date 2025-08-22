@@ -1,4 +1,4 @@
-Checkpoint 01 - Análise de Dados de Consumidores de Energia
+# Checkpoint 01 - Análise de Dados de Consumidores de Energia
 
 Para entrega a 5 de setembro de 2025 às 23:59
 SERS - André Tritiack
