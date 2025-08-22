@@ -24,10 +24,10 @@ consumo elétrico em uma residência entre 2006 e 2010, com registros a cada min
 - [X] Carregue o dataset e exiba as 10 primeiras linhas.
 
 ###### 2. Etapa
-- [ ] Explique a diferença entre as variáveis Global_active_power e Global_reactive_power.
+- [X] Explique a diferença entre as variáveis Global_active_power e Global_reactive_power.
 
 Resposta:
-##### Diferença entre Global_active_power e Global_reactive_power
+###### Diferença entre Global_active_power e Global_reactive_power
 
 **Global_active_power**
 - Potência ativa consumida pela residência, minuto a minuto (em kW).
@@ -58,7 +58,9 @@ Resposta:
 - **Ativa + reativa:** ar-condicionado, geladeira, máquina de lavar, ventilador.  
 - **Predominantemente reativa:** transformador ligado sem carga, motores parados energizados, reatores de lâmpadas fluorescentes.  
 
-3. Verifique se existem valores ausentes no dataset. Quantifique-os.
+###### 3. Etapa
+- [ ] Verifique se existem valores ausentes no dataset. Quantifique-os.
+- [ ] 
 4. Converta a coluna Date para o tipo datetime e crie uma nova coluna com o dia da semana
 correspondente.
 5. Filtre os registros apenas do ano de 2007 e calcule a média de consumo diário de
